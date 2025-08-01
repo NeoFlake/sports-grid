@@ -34,19 +34,19 @@
                 <div class="col-4 d-flex justify-content-center align-items-center mt-4">
                     <div class="row">
                         <div class="row d-flex justify-content-center">
-                            <button class="btn btn-outline-primary col-2" onclick="deplacerElement('left')"><</button>
+                            <button id="deplacer-solo-left" class="btn btn-outline-primary col-2" onclick="deplacerElement('left')"><</button>
                             <div class="col-6 d-flex align-items-center  justify-content-center">Un élément</div>
-                            <button class="col-2 btn btn-outline-primary" onclick="deplacerElement('right')">></button>
+                            <button id="deplacer-solo-right" class="col-2 btn btn-outline-primary" onclick="deplacerElement('right')">></button>
                         </div>
                         <div class="row d-flex justify-content-center mt-5 mb-5">
-                            <button class="btn btn-outline-primary col-2" onclick="deplacerTout('left')"><<</button>
+                            <button id="deplacer-all-left" class="btn btn-outline-primary col-2" onclick="deplacerTout('left')"><<</button>
                             <div class="col-6 d-flex align-items-center justify-content-center">Tout</div>
-                            <button class="col-2 btn btn-outline-primary" onclick="deplacerTout('right')">>></button>
+                            <button id="deplacer-all-right" class="col-2 btn btn-outline-primary" onclick="deplacerTout('right')">>></button>
                         </div>
                         <div class="row d-flex justify-content-center">
-                            <button class="btn btn-outline-primary col-2" onclick="deplacerSelected('left')">*<<</button>
+                            <button id="deplacer-multi-left" class="btn btn-outline-primary col-2" onclick="deplacerElement('left')">*<<</button>
                             <div class="col-6 d-flex align-items-center  justify-content-center">Éléments sélectionnés</div>
-                            <button class="col-2 btn btn-outline-primary" onclick="deplacerSelected('right')">>>*</button>
+                            <button id="deplacer-multi-right" class="col-2 btn btn-outline-primary" onclick="deplacerElement('right')">>>*</button>
                         </div>
                     </div>
                 </div>
